@@ -45,7 +45,10 @@ We search the pruning policy of YOLOv3 on the UCSD dataset and re-train the prun
 | YOLOv4          | 63.1     | 59.659    | 63.948     | 0.132              |
 | YOLO-tiny       | 57.4     | 5.475     | 8.674      | **0.014**          |
 |[RBCP](https://ieeexplore.ieee.org/abstract/document/9412687)| 66.5     | 17.973    | 4.844      | 0.042              |
-| **ABCP (Ours)** | **69.6** | **4.485** | **4.685**  | 0.016              |
+| ABCP (Ours)     | **69.6** | **4.485** | **4.685**  | 0.016              |
+
+The detection results of the pruned YOLOv3:
+<p align="left"> <img src="misc/result1.jpg" width="30%"/>
   
 ### the mobile robot detection dataset
   
