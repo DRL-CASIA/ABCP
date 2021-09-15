@@ -36,14 +36,16 @@ The data could be downloaded from [Baidu Netdisk](https://pan.baidu.com/s/1Rmhjx
 ## Results
  
 ### the UCSD dataset
-  
-| Models      | mAP (%) | FLOPs (G) | Params (M) | Inference Time (s) |
-| ----------- | ------- | --------- | ---------- | ------------------ |
-| YOLOv3      |         |           |            |                    |
-| YOLOv4      |         |           |            |                    |
-| YOLO-tiny   |         |           |            |                    |
-| RBCP        |         |           |            |                    |
-| ABCP (Ours) |         |           |            |                    |
+
+We search the pruning policy of YOLOv3 on the UCSD dataset and re-train the pruned model.
+
+| Models          | mAP (%)  | FLOPs (G) | Params (M) | Inference Time (s) |
+| --------------- | -------- | --------- | ---------- | ------------------ |
+| YOLOv3          | 61.4     | 65.496    | 61.535     | 0.110              |
+| YOLOv4          | 63.1     | 59.659    | 63.948     | 0.132              |
+| YOLO-tiny       | 57.4     | 5.475     | 8.674      | **0.014**          |
+|[RBCP](https://ieeexplore.ieee.org/abstract/document/9412687)| 66.5     | 17.973    | 4.844      | 0.042              |
+| **ABCP (Ours)** | **69.6** | **4.485** | **4.685**  | 0.016              |
   
 ### the mobile robot detection dataset
   
