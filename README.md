@@ -84,8 +84,8 @@ We search the pruning policy of YOLOv3 on the simulation dataset and test the pr
  <col class=xl65 width=121 style='mso-width-source:userset;mso-width-alt:3882;
  width:91pt'>
  <tr height=19 style='height:14.0pt'>
-  <td rowspan=2 height=38 class=xl65 width=115 style='height:28.0pt;width:63pt'><b>Models</b></td>
-  <td colspan=2 class=xl65 width=163 style='width:123pt'><b>mAP (%)</b></td>
+  <td rowspan=2 height=38 class=xl65 width=115 style='height:28.0pt;width:63pt' align="center"><b>Models</b></td>
+  <td colspan=2 class=xl65 width=163 style='width:123pt' align="center"><b>mAP (%)</b></td>
   <td rowspan=2 class=xl65 width=100 style='width:53pt'><b>FLOPs (G)</b></td>
   <td rowspan=2 class=xl65 width=110 style='width:60pt'><b>Params (M)</b></td>
   <td rowspan=2 class=xl65 width=165 style='width:91pt'><b>Inference Time (s)</b></td>
