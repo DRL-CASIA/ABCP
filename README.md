@@ -37,6 +37,14 @@ The data could be downloaded from [Baidu Netdisk](https://pan.baidu.com/s/1Rmhjx
  
 ### the UCSD dataset
   
+| Models      | mAP (%) | FLOPs (G) | Params (M) | Inference Time (s) |
+| ----------- | ------- | --------- | ---------- | ------------------ |
+| YOLOv3      |         |           |            |                    |
+| YOLOv4      |         |           |            |                    |
+| YOLO-tiny   |         |           |            |                    |
+| RBCP        |         |           |            |                    |
+| ABCP (Ours) |         |           |            |                    |
+  
 ### the mobile robot detection dataset
   
 ### the sim2real dataset
