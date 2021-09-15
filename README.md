@@ -35,7 +35,7 @@ The data could be downloaded from [Baidu Netdisk](https://pan.baidu.com/s/1Rmhjx
   
 ## Results
  
-### the UCSD dataset
+### The UCSD dataset
 
 We search the pruning policy of YOLOv3 on the UCSD dataset and re-train the pruned model.
 
@@ -50,7 +50,7 @@ We search the pruning policy of YOLOv3 on the UCSD dataset and re-train the prun
 The detection results of the pruned YOLOv3:
 <p align="left"> <img src="misc/result1.jpg" width="38%"/>
   
-### the mobile robot detection dataset
+### The mobile robot detection dataset
   
 We search the pruning policy of YOLOv3 on the mobile robot detection dataset and re-train the pruned model.
   
@@ -65,7 +65,7 @@ We search the pruning policy of YOLOv3 on the mobile robot detection dataset and
 The detection results of the pruned YOLOv3:
 <p align="left"> <img src="misc/result2.jpg" width="42%"/>
   
-### the sim2real dataset
+### The sim2real dataset
   
 We search the pruning policy of YOLOv3 on the simulation dataset and test the pruned model on the real-world dataset.
   
