@@ -52,4 +52,17 @@ The detection results of the pruned YOLOv3:
   
 ### the mobile robot detection dataset
   
+We search the pruning policy of YOLOv3 on the mobile robot detection dataset and re-train the pruned model.
+  
+| Models      | mAP (%)  | FLOPs (G) | Params (M) | Inference Time (s) |
+| ----------- | -------- | --------- | ---------- | ------------------ |
+| YOLOv3      | **94.9** | 65.510    | 61.545     | 0.227              |
+| YOLOv4      | 92.1     | 59.673    | 63.959     | 0.141              |
+| YOLO-tiny   | 85.3     | 5.478     | 8.679      | 0.014              |
+|[RBCP](https://ieeexplore.ieee.org/abstract/document/9412687)| 89.9     | 2.842     | 1.879      | 0.012              |
+| ABCP (Ours) | 92.1     | **0.327** | **0.299**  | **0.003**          |
+  
+he detection results of the pruned YOLOv3:
+<p align="left"> <img src="misc/result2.jpg" width="42%"/>
+  
 ### the sim2real dataset
