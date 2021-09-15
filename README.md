@@ -4,7 +4,7 @@ Automatic Block-wise and Channel-wise Network Pruning (**ABCP**) jointly search 
 
 ## Detection Datasets for ABCP
 
-These three datasets are collected for the evaluation of ABCP.
+YOLOv3 is adopted to illustrate the performance of our proposed ABCP framework. These three datasets are collected for the evaluation of ABCP.
 
 ### The UCSD dataset
 
@@ -30,3 +30,11 @@ The format of the labels is relative xywh coordinates. The documents named train
   
 ### Download
 The data could be downloaded from [Baidu Netdisk](https://pan.baidu.com/s/1RmhjxdZqri_V5GCBnrtI5w) (Pwd: redc) and [OneDrive](https://1drv.ms/u/s!Asc-xz451d9bnSpIYWq_qetgJh5y?e=YcaGWM).
+  
+## Results
+ 
+### the UCSD dataset
+  
+### the mobile robot detection dataset
+  
+### the sim2real dataset
