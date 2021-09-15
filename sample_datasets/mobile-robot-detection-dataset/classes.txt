@@ -1,0 +1,5 @@
+red_armor
+red_robot
+blue_robot
+dead_robot
+blue_armor

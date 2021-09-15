@@ -1,0 +1,3 @@
+truck
+bus
+car
