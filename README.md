@@ -62,7 +62,79 @@ We search the pruning policy of YOLOv3 on the mobile robot detection dataset and
 |[RBCP](https://ieeexplore.ieee.org/abstract/document/9412687)| 89.9     | 2.842     | 1.879      | 0.012              |
 | ABCP (Ours) | 92.1     | **0.327** | **0.299**  | **0.003**          |
   
-he detection results of the pruned YOLOv3:
+The detection results of the pruned YOLOv3:
 <p align="left"> <img src="misc/result2.jpg" width="42%"/>
   
 ### the sim2real dataset
+  
+We search the pruning policy of YOLOv3 on the simulation dataset and test the pruned model on the real-world dataset.
+  
+<table border=0 cellpadding=0 cellspacing=0 width=518 style='border-collapse:
+ collapse;table-layout:fixed;width:390pt'>
+ <col class=xl65 width=84 style='mso-width-source:userset;mso-width-alt:2688;
+ width:63pt'>
+ <col class=xl65 width=81 style='mso-width-source:userset;mso-width-alt:2602;
+ width:61pt'>
+ <col class=xl65 width=82 style='mso-width-source:userset;mso-width-alt:2624;
+ width:62pt'>
+ <col class=xl65 width=70 style='mso-width-source:userset;mso-width-alt:2240;
+ width:53pt'>
+ <col class=xl65 width=80 style='mso-width-source:userset;mso-width-alt:2560;
+ width:60pt'>
+ <col class=xl65 width=121 style='mso-width-source:userset;mso-width-alt:3882;
+ width:91pt'>
+ <tr height=19 style='height:14.0pt'>
+  <td rowspan=2 height=38 class=xl65 width=115 style='height:28.0pt;width:63pt'><b>Models</b></td>
+  <td colspan=2 class=xl65 width=163 style='width:123pt'><b>mAP (%)</b></td>
+  <td rowspan=2 class=xl65 width=100 style='width:53pt'><b>FLOPs (G)</b></td>
+  <td rowspan=2 class=xl65 width=110 style='width:60pt'><b>Params (M)</b></td>
+  <td rowspan=2 class=xl65 width=165 style='width:91pt'><b>Inference Time (s)</b></td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl65 style='height:14.0pt'>sim dataset</td>
+  <td class=xl65>real dataset</td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl65 style='height:14.0pt'>YOLOv3</td>
+  <td class=xl66>95.6 </td>
+  <td class=xl66>66.5 </td>
+  <td class=xl67>65.481 </td>
+  <td class=xl67>61.524 </td>
+  <td class=xl67>0.117 </td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl65 style='height:14.0pt'>YOLOv4</td>
+  <td class=xl66><b>98.3</b> </td>
+  <td class=xl66>28.8 </td>
+  <td class=xl67>59.644 </td>
+  <td class=xl67>63.938 </td>
+  <td class=xl67>0.141 </td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl65 style='height:14.0pt'>YOLO-tiny</td>
+  <td class=xl66><b>98.3</b> </td>
+  <td class=xl66>42.3 </td>
+  <td class=xl67>5.472 </td>
+  <td class=xl67>8.670 </td>
+  <td class=xl67>0.014 </td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl65 style='height:14.0pt'><a href="https://ieeexplore.ieee.org/abstract/document/9412687">RBCP<a/></td>
+  <td class=xl66>97.9 </td>
+  <td class=xl66>71.2 </td>
+  <td class=xl67>2.321 </td>
+  <td class=xl67><b>1.237</b> </td>
+  <td class=xl67>0.009 </td>
+ </tr>
+ <tr height=19 style='height:14.0pt'>
+  <td height=19 class=xl65 style='height:14.0pt'>ABCP (ours)</td>
+  <td class=xl66>98.0 </td>
+  <td class=xl66><b>76.1</b> </td>
+  <td class=xl67><b>1.581</b> </td>
+  <td class=xl67>2.545 </td>
+  <td class=xl67><b>0.008</b> </td>
+ </tr>
+</table>
+
+The detection results of the pruned YOLOv3 on the real-world dataset:
+<p align="left"> <img src="misc/result3.jpg" width="42%"/>
