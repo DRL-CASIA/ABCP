@@ -48,7 +48,7 @@ We search the pruning policy of YOLOv3 on the UCSD dataset and re-train the prun
 | ABCP (Ours)     | **69.6** | **4.485** | **4.685**  | 0.016              |
 
 The detection results of the pruned YOLOv3:
-<p align="left"> <img src="misc/result1.jpg" width="30%"/>
+<p align="left"> <img src="misc/result1.jpg" width="35%"/>
   
 ### the mobile robot detection dataset
   
