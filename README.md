@@ -48,7 +48,7 @@ We search the pruning policy of YOLOv3 on the UCSD dataset and re-train the prun
 | ABCP (Ours)     | **69.6** | **4.485** | **4.685**  | 0.016              |
 
 The detection results of the pruned YOLOv3:
-<p align="left"> <img src="misc/result1.jpg" width="38%"/>
+<p align="left"> <img src="misc/UCSD.gif" width="38%"/>
   
 ### The mobile robot detection dataset
   
@@ -63,7 +63,7 @@ We search the pruning policy of YOLOv3 on the mobile robot detection dataset and
 | ABCP (Ours) | 92.1     | **0.327** | **0.299**  | **0.003**          |
   
 The detection results of the pruned YOLOv3:
-<p align="left"> <img src="misc/result2.jpg" width="42%"/>
+<p align="left"> <img src="misc/mobilerobot.gif" width="42%"/>
   
 ### The sim2real dataset
   
@@ -137,4 +137,4 @@ We search the pruning policy of YOLOv3 on the simulation dataset and test the pr
 </table>
 
 The detection results of the pruned YOLOv3 on the real-world dataset:
-<p align="left"> <img src="misc/result3.jpg" width="42%"/>
+<p align="left"> <img src="misc/sim2real.jpg" width="42%"/>
