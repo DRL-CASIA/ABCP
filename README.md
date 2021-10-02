@@ -137,4 +137,4 @@ We search the pruning policy of YOLOv3 on the simulation dataset and test the pr
 </table>
 
 The detection results of the pruned YOLOv3 on the real-world dataset:
-<p align="left"> <img src="misc/sim2real.gif" width="42%"/>
+<p align="left"> <img src="misc/sim.gif" width="42%"/> <img src="misc/sim2real.gif" width="42%"/>
