@@ -1,4 +1,4 @@
-# ABCP [[Paper](https://ieeexplore.ieee.org/abstract/document/9994042/)][ABCP](##ABCP code)
+# ABCP [[Paper](https://ieeexplore.ieee.org/abstract/document/9994042/)]
 
 Automatic Block-wise and Channel-wise Network Pruning (**ABCP**) jointly search the block pruning policy and the channel pruning policy of the network with deep reinforcement learning (DRL). A joint sample algorithm is proposed to simultaneously generate the pruning choice of each residual block and the channel pruning ratio of each convolutional layer from the discrete and continuous search space respectively.
 
