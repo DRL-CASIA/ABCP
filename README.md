@@ -6,7 +6,7 @@ Automatic Block-wise and Channel-wise Network Pruning (**ABCP**) jointly search 
 
 ### Code Preparations
 1. Clone this repository into your local folder.
-2. Prepare dataset, please refer to [Detection Datasets for ABCP](###Code Preparations) for detailed instructions.
+2. Prepare dataset, please refer to [Detection Datasets for ABCP](##Detection Datasets for ABCP) for detailed instructions.
 
 ## Detection Datasets for ABCP
 
