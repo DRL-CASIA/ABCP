@@ -2,7 +2,9 @@
 
 Automatic Block-wise and Channel-wise Network Pruning (**ABCP**) jointly search the block pruning policy and the channel pruning policy of the network with deep reinforcement learning (DRL). A joint sample algorithm is proposed to simultaneously generate the pruning choice of each residual block and the channel pruning ratio of each convolutional layer from the discrete and continuous search space respectively.
 
-The code will be made available in the future.
+## ABCP code
+
+
 
 ## Detection Datasets for ABCP
 
