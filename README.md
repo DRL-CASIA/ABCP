@@ -1,6 +1,6 @@
 # ABCP [[Paper](https://ieeexplore.ieee.org/abstract/document/9994042/)]
 
-Automatic Block-wise and Channel-wise Network Pruning (**ABCP**) jointly search the block pruning policy and the channel pruning policy of the network with deep reinforcement learning (DRL). A joint sample algorithm is proposed to simultaneously generate the pruning choice of each residual block and the channel pruning ratio of each convolutional layer from the discrete and continuous search space respectively.
+Automatic Block-wise and Channel-wise Network Pruning (**ABCP**) jointly search the block pruning policy and the channel pruning policy of the network with deep reinforcement learning (DRL). A joint sample algorithm is proposed to simultaneously generate the pruning choice of each residual block and the channel pruning ratio of each convolutional layer from the discrete and continuous search space respectively. These codes are for YOLOv3 pruning through ABCP.
 
 ## ABCP code
 
@@ -16,7 +16,15 @@ These codes refer to [enas](https://github.com/melodyguan/enas) and [tensorflow-
 1. Open `/code/src/yolo/config.py` and modify the variable called `TRAIN.LEARN_RATE_INIT` and `TRAIN.LEARN_RATE_END` according to the dataset choice.
 2. Open `/code/src/yolo/config.py` and modify the variable called `TRAIN.FISRT_STAGE_EPOCHS` as 20 and `TRAIN.SECOND_STAGE_EPOCHS` greater than 30.
 3. Open`/code/src/yolo/pretraining.py` and modify the variable called `output_dir`, which is the pretrained weight path during the searching process.
-4. `nohup python2  pretraining.py`
+4. `python2  pretraining.py`
+
+### Searching
+1. Open `/code/src/yolo/config.py` and modify the variable called `TRAIN.LEARN_RATE_INIT` and `TRAIN.LEARN_RATE_END` according to the dataset choice.
+2. Open `/code/src/yolo/config.py` and modify the variable called `TRAIN.FISRT_STAGE_EPOCHS` as 1 and `TRAIN.SECOND_STAGE_EPOCHS`as 0.
+3. Open`/code/src/yolo/main_cal_yolo_multitask_continuous.py` and modify the variable called `output_dir`,`weight_path`, and  `num_epochs`.
+4. `nohup python2 main_cal_yolo_multitask_continuous.py`
+5. Use the log `nohup.out` to get the pruning action with the best reward: `python3 read_nohup_yolo.py`.
+
 
 ## Detection Datasets for ABCP
 
