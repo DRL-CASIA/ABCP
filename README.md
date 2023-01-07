@@ -8,7 +8,7 @@ Automatic Block-wise and Channel-wise Network Pruning (**ABCP**) jointly search 
 These codes refer to [enas](https://github.com/melodyguan/enas) and [tensorflow-yolov3](https://github.com/YunYang1994/tensorflow-yolov3). 
 
 ### Code Preparations
-1. Clone this repository into your local folder,  install some dependencies according to [requirements.txt](requirements.txt). 
+1. Clone this repository into your local folder,  install some dependencies according to [requirements.txt](requirement.txt). 
 2. Prepare dataset, please refer to [Detection Datasets for ABCP](https://github.com/DRL-CASIA/Detection-Datasets-for-ABCP) for detailed instructions.
 
 ## Detection Datasets for ABCP
