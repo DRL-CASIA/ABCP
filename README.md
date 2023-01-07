@@ -25,6 +25,8 @@ These codes refer to [enas](https://github.com/melodyguan/enas) and [tensorflow-
 4. `nohup python2 main_cal_yolo_multitask_continuous.py`
 5. When the searching process is finished, use the log `nohup.out` to get the pruning action with the best reward: `python read_nohup_yolo.py`.
 
+### Testing
+For the mAP calculating for the YOLOv3 models, we use the codes from [PyTorch-YOLOv3](https://github.com/eriklindernoren/PyTorch-YOLOv3).
 
 ## Detection Datasets for ABCP
 
