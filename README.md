@@ -8,9 +8,15 @@ Automatic Block-wise and Channel-wise Network Pruning (**ABCP**) jointly search 
 These codes refer to [enas](https://github.com/melodyguan/enas) and [tensorflow-yolov3](https://github.com/YunYang1994/tensorflow-yolov3). 
 
 ### Code Preparations
-1. Clone this repository into your local folder,  install some dependencies according to [requirements.txt](requirement.txt). 
+1. Clone this repository into your local folder,  install some dependencies according to [requirement.txt](requirement.txt). 
 2. Prepare dataset, please refer to [Detection Datasets for ABCP](https://github.com/DRL-CASIA/Detection-Datasets-for-ABCP) for detailed instructions.
 3. Open `/code/src/yolo/config.py` and modify the variable called `YOLO.CLASSES`, `YOLO.ANCHORS`, `TRAIN.ANNOT_PATH`, and `TEST.ANNOT_PATH`.
+
+### Pretraining 
+1. Open `/code/src/yolo/config.py` and modify the variable called `TRAIN.LEARN_RATE_INIT` and `TRAIN.LEARN_RATE_END` according to the dataset choice.
+2. Open `/code/src/yolo/config.py` and modify the variable called `TRAIN.FISRT_STAGE_EPOCHS` as 20 and `TRAIN.SECOND_STAGE_EPOCHS` greater than 30.
+3. Open`/code/src/yolo/pretraining.py` and modify the variable called `output_dir`.
+4. `nohup python2  pretraining.py`
 
 ## Detection Datasets for ABCP
 
