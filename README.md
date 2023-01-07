@@ -5,7 +5,7 @@ Automatic Block-wise and Channel-wise Network Pruning (**ABCP**) jointly search 
 ## ABCP code
 
 ### Reference
-This 
+This code refers to [enas](https://github.com/melodyguan/enas) and [tensorflow-yolov3](https://github.com/YunYang1994/tensorflow-yolov3). 
 
 ### Code Preparations
 1. Clone this repository into your local folder, 
