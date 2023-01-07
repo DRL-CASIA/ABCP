@@ -10,6 +10,7 @@ These codes refer to [enas](https://github.com/melodyguan/enas) and [tensorflow-
 ### Code Preparations
 1. Clone this repository into your local folder,  install some dependencies according to [requirements.txt](requirement.txt). 
 2. Prepare dataset, please refer to [Detection Datasets for ABCP](https://github.com/DRL-CASIA/Detection-Datasets-for-ABCP) for detailed instructions.
+3. Open `/code/src/yolo/config.py` and modify the variable called `YOLO.CLASSES`, `YOLO.ANCHORS`, `TRAIN.ANNOT_PATH`, and `TEST.ANNOT_PATH`.
 
 ## Detection Datasets for ABCP
 
