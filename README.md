@@ -5,7 +5,7 @@ Automatic Block-wise and Channel-wise Network Pruning (**ABCP**) jointly search 
 ## ABCP code
 
 ### Code Preparations
-1. Clone this repository into your local folder.
+1. Clone this repository into your local folder, 
 2. Prepare dataset, please refer to [Detection Datasets for ABCP](https://github.com/DRL-CASIA/Detection-Datasets-for-ABCP) for detailed instructions.
 
 ## Detection Datasets for ABCP
