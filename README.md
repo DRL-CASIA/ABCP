@@ -15,7 +15,7 @@ These codes refer to [enas](https://github.com/melodyguan/enas) and [tensorflow-
 ### Pretraining 
 1. Open `/code/src/yolo/config.py` and modify the variable called `TRAIN.LEARN_RATE_INIT` and `TRAIN.LEARN_RATE_END` according to the dataset choice.
 2. Open `/code/src/yolo/config.py` and modify the variable called `TRAIN.FISRT_STAGE_EPOCHS` as 20 and `TRAIN.SECOND_STAGE_EPOCHS` greater than 30.
-3. Open`/code/src/yolo/pretraining.py` and modify the variable called `output_dir`.
+3. Open`/code/src/yolo/pretraining.py` and modify the variable called `output_dir`, which is the pretrained weight path during the searching process.
 4. `nohup python2  pretraining.py`
 
 ## Detection Datasets for ABCP
