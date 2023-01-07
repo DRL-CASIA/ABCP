@@ -57,7 +57,7 @@ The data could be downloaded from [Baidu Netdisk](https://pan.baidu.com/s/1Rmhjx
   
 ## Results
   
- Please download the compressed models for the three datasets from [compressed models](compressed models).
+ Please download the compressed models for the three datasets from [compressed_models](compressed_models).
  
 ### The UCSD dataset
 
