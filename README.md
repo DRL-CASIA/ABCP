@@ -23,7 +23,7 @@ These codes refer to [enas](https://github.com/melodyguan/enas) and [tensorflow-
 2. Open `/code/src/yolo/config.py` and modify the variable called `TRAIN.FISRT_STAGE_EPOCHS` as 1 and `TRAIN.SECOND_STAGE_EPOCHS`as 0.
 3. Open`/code/src/yolo/main_cal_yolo_multitask_continuous.py` and modify the variable called `output_dir`,`weight_path`, and  `num_epochs`.
 4. `nohup python2 main_cal_yolo_multitask_continuous.py`
-5. Use the log `nohup.out` to get the pruning action with the best reward: `python3 read_nohup_yolo.py`.
+5. When the searching process is finished, use the log `nohup.out` to get the pruning action with the best reward: `python read_nohup_yolo.py`.
 
 
 ## Detection Datasets for ABCP
@@ -56,6 +56,8 @@ The format of the labels is relative xywh coordinates. The documents named train
 The data could be downloaded from [Baidu Netdisk](https://pan.baidu.com/s/1RmhjxdZqri_V5GCBnrtI5w) (Pwd: redc) and [OneDrive](https://1drv.ms/u/s!Asc-xz451d9bnSpIYWq_qetgJh5y?e=YcaGWM).
   
 ## Results
+  
+ Please download the compressed models for the three datasets from [compressed models](compressed models).
  
 ### The UCSD dataset
 
